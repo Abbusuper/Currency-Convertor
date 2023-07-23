@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    overflow-y: hidden; /* Hide vertical scrollbar */ 
+    overflow-x: hidden; /* Hide horizontal scrollbar */ 
+    background-color: rgb(112, 107, 107);
+  }
+  a{
+    text-decoration: none;
+  }
+  .cc-btn {
+    color: #171616;
+    font-size: 32px;
+    cursor: pointer;
+    width: 55px;
+    border-radius: 50px 0px 20px 50px;
+    justify-content: center;
+    height: 0vh;
+    position: relative;
+  }
+  
+  /* .cc-btn:hover::after {
+    content: "Currency Codes";
+    background-color:grey;
+    color: white;
+    /* padding: 5px; */
+    /* border-radius: 5px; */
+    /*position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translateX(-75%);
+    transition: 2s;
+    white-space: nowrap;
+    font-size: 10px;
+  } */
+  
+  .container {
+    display: flex;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 600px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.amount-con, .from-con, .to-con {
+    display: flex;
+    font-size: 2.5rem;
+    align-items: center;
+}
+  h1 {
+    text-align: center;
+  }
+  label {
+    display: block;
+    margin:0 20px 10px 0;
+    
+  }
+  #from{
+    margin-left: 40px;
+  }
+  #to{
+    margin-left: 90px;
+  }
+  input[type="number"], #from, #to{
+    width: 100vh;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    font-size: 20px;
+  }
+  select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  #result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #eaeaea;
+    border-radius: 3px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+}
